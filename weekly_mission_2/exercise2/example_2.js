@@ -97,14 +97,14 @@ console.log("6.) Suma de todos los exercises");
 const sumaExercises = explorers.reduce((acc, element) => acc + element.exercises_completed, 0)
 console.log("La suma es: " + sumaExercises + "\n");
 
-/* Obtén la validación si al menos uno de los explorers tiene la propiedad exercisesFinished en frontend como true, usa SOME */
+/* validación si al menos tiene la propiedad exercisesFinished en frontend como true, usa SOME */
 console.log("7.) Validación con SOME");
 const exercisesFinish_front = explorers.some(element =>
   element.missions.frontend.exercisesFinished == true
 )
 console.log(exercisesFinish_front + "\n");
 
-/* Obtén la validación si todos los explorers tienen la propiedad isFinished del onboarding como true. Usa EVERY */
+/* validación si todos tienen la propiedad isFinished del onboarding como true. Usa EVERY */
 console.log("8.) Validación con EVERY");
 const exercisesFinish_onbor = explorers.every((element) => 
 typeof element.missions.onboarding.exercisesFinished === 'true'
