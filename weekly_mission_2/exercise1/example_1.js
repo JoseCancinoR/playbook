@@ -18,5 +18,4 @@ const twitter = {
 
 console.log("Nombre de usuario: " + twitter.username)
 console.log("Total de interacciones: " + twitter.totalInteractions())
-console.log(twitter.information())
-console.log("\n");
+console.log(twitter.information()+"\n")
