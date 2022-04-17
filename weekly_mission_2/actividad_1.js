@@ -18,8 +18,7 @@ const repo = {
 
 console.log("Nombre del repo: " + repo.name)
 console.log("Issues totales: " + repo.getTotalIssues())
-console.log(repo.getGeneralInfo())
-console.log("\n");
+console.log(repo.getGeneralInfo() + "\n")
 
 /* Ejemplo 2 */
 const issue = {
@@ -41,8 +40,7 @@ const issue = {
 
 console.log("Nombre del repo: " + issue.repositoryNameAssociated)
 console.log("Title and Author: " + issue.getTitleAndAuthor())
-console.log(issue.getGeneralInfo())
-console.log("\n");
+console.log(issue.getGeneralInfo() + "\n")
 
 /* Ejemplo 3 */
 const pullRequest = {
